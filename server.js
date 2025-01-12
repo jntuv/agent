@@ -18,10 +18,10 @@ const openai = new OpenAIApi(
 
 // SFTP Configuration
 const SFTP_CONFIG = {
-    host: 'your-sftp-server.com',
+    host: 'eu-central-1.sftpcloud.io',
     port: '22',
-    username: 'your-username',
-    password: 'your-password',
+    username: 'ad9082cdfd094e06bf3f9fc4d917ac31',
+    password: '6PP9ElJR5e4VpG8GjIJ9BDU42aRD0UM4',
 };
 
 // Fetch data from SFTP
