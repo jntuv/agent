@@ -11,9 +11,9 @@ const PORT = 3000;
 
 // Configure OpenAI API
 const openai = new OpenAIApi(
-    new Configuration({
+    {
         apiKey: 'your-openai-api-key', // Replace with your OpenAI API key
-    })
+    }
 );
 
 // SFTP Configuration
